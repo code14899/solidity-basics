@@ -64,7 +64,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/advance solidity/transfer-send-call.sol": "sendEther"
+			"contracts/advance solidity/transfer-send.sol": "sendEther"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -78,7 +78,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/advance solidity/transfer-send-call.sol": {
+		"contracts/advance solidity/transfer-send.sol": {
 			"keccak256": "0x65a4c4988689cb84042940e8e68f8c154152919c6d9c8bb0fba6ad3458e8e086",
 			"license": "MIT",
 			"urls": [
