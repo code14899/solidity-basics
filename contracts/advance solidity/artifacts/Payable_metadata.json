@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/advance solidity/payable.sol": "Payable"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/advance solidity/payable.sol": {
+			"keccak256": "0x9535c0145fedf7a55b5b6889d48d102b166b08ff34e10233fc77fb7b9c847cc2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://09e65631ec27af6790849bf3d5f13585828286d8b1a6aa74146948086cb4ef72",
+				"dweb:/ipfs/QmVk7ZZ5NjSBGq2xpgV2AsEYJVvNApdX3P6AKKxYX98iYk"
+			]
+		}
+	},
+	"version": 1
+}

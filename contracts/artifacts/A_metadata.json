@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ovveriding_state_var_inheritance.sol": "A"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ovveriding_state_var_inheritance.sol": {
+			"keccak256": "0x513850a5020c23398209c607d95c14bf3aa43c707e41ca5181eb18d04d7a9522",
+			"urls": [
+				"bzz-raw://69246a63cf4e80239662bb910f0c94cac37b1ad97a34264d80430dd796043d0e",
+				"dweb:/ipfs/QmSyks2oV1y7ZdPtJGBfkpRKy5v1UoNJpU6ubHr1dhBF4P"
+			]
+		}
+	},
+	"version": 1
+}

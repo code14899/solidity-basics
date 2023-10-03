@@ -1,0 +1,58 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "ret",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/inheritance/inheritance.sol": "D"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/inheritance/inheritance.sol": {
+			"keccak256": "0x64c0590aa5d11d7a706bc382eaaa7be0ae6626091a67e119ad38cac5050e5ff7",
+			"urls": [
+				"bzz-raw://6c61a93f366e9ff8e30fb2800d6a40a02675737f35a2e240be7e4b43923e3bb3",
+				"dweb:/ipfs/QmXyny5kGYpYBdNE8sgYtbrJQo1bnFmLiGu4w7S91bLoVv"
+			]
+		}
+	},
+	"version": 1
+}

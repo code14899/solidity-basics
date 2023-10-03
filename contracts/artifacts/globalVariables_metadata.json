@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/global_variables.sol": "globalVariables"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/global_variables.sol": {
+			"keccak256": "0x9997ae1ddf4f78579d4bbe59a4e4608edc153a65d57fb3d129d59136f1cb124e",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://524523bf28ee6782814a8c373ee69fb064647e76ba37d72797634397fe89f597",
+				"dweb:/ipfs/QmSqGYcMwPvgi4AvjV7uuUPcduun7QhNj7ByLtce7sN4Tp"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,205 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_validator1",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_Validator2",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					}
+				],
+				"name": "log",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					}
+				],
+				"name": "logAll",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string[9]",
+						"name": "data",
+						"type": "string[9]"
+					}
+				],
+				"name": "add",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "dataArray",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "caseNo",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "caseName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "judge",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "prosecutorLawyerName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "defenderLawerName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "clientFiled",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "clientDefending",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "verdict",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "url",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getAllCases",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_judgeName",
+						"type": "string"
+					}
+				],
+				"name": "getJudgeCases",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_lawyerName",
+						"type": "string"
+					}
+				],
+				"name": "getLawyerCase",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/sih2.sol": "evault"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/sih2.sol": {
+			"keccak256": "0x353f66aaebe4ee87dad973db2eb54f29e8b5aabc436e0bc0eaeba66b79d5ecbb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a9986da789652861c39d0784cf4483a50c9c9256689dbd4c57ea7a230490624d",
+				"dweb:/ipfs/QmbbEhn6vjA5TM3eTEqhgcUNrqhkbYFjnphwRWykR1rkhT"
+			]
+		}
+	},
+	"version": 1
+}

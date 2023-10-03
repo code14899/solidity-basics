@@ -1,0 +1,63 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/advance solidity/fallback.sol": "Fallback"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/advance solidity/fallback.sol": {
+			"keccak256": "0xaccea3b3f5517a3eb635bb46e4b957d9a0a5dab59dd8421b770f25d4392002fe",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b28baf393bb96e3327189378e035f506ef3785ebedb3d41933b37aa312989f5c",
+				"dweb:/ipfs/QmQF4qPPqh4LwmFe7ZU4MSkMYhFXc4Le4j1weGzDaKuCsH"
+			]
+		}
+	},
+	"version": 1
+}

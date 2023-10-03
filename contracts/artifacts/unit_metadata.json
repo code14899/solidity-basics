@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "i",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "infinite",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ether and wei.sol": "unit"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ether and wei.sol": {
+			"keccak256": "0x345bac39a28a3d9bb9b232a37cc98d8e99a0e176b7a0e47e0325290cb6b46be6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://32c70dd11355e3ef232dfea829e43d25820a26d707da9c7a3fa7804ff116b3cc",
+				"dweb:/ipfs/QmT4airmrursEjFSw4usnwo1wpuAQhPkdphRNqfNXGidtj"
+			]
+		}
+	},
+	"version": 1
+}
