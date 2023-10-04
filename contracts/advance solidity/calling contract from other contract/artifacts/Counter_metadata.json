@@ -1,0 +1,73 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "count",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "dec",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "inc",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/advance solidity/calling contract from other contract/helper-counter-contract.sol": "Counter"
+		},
+		"evmVersion": "berlin",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/advance solidity/calling contract from other contract/helper-counter-contract.sol": {
+			"keccak256": "0x253a29e8b717a91419a1632736b4064e22a1b589d4c375c6f71e17cac523ac3f",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://118264a1ce0bf9ae0d3584df4e4917f1dcf0647949d1667b194be27bf7d3deb3",
+				"dweb:/ipfs/QmZ3N7qV7ySQBseUSC3eHAtURWiYxTLTVV3Bdh7A7g2o2R"
+			]
+		}
+	},
+	"version": 1
+}

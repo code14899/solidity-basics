@@ -6,15 +6,21 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "deposit",
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_counterAddress",
+						"type": "address"
+					}
+				],
+				"name": "IncAndGet",
 				"outputs": [],
-				"stateMutability": "payable",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "getBalance",
+				"name": "count",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -39,9 +45,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/advance solidity/payable.sol": "Payable"
+			"contracts/advance solidity/interface.sol": "Interface"
 		},
-		"evmVersion": "paris",
+		"evmVersion": "berlin",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -53,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/advance solidity/payable.sol": {
-			"keccak256": "0x9535c0145fedf7a55b5b6889d48d102b166b08ff34e10233fc77fb7b9c847cc2",
+		"contracts/advance solidity/interface.sol": {
+			"keccak256": "0x77fee092fb7c14c53434e2469e019dbe2b91ccedb72ced6a4971c9e40ddef311",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://09e65631ec27af6790849bf3d5f13585828286d8b1a6aa74146948086cb4ef72",
-				"dweb:/ipfs/QmVk7ZZ5NjSBGq2xpgV2AsEYJVvNApdX3P6AKKxYX98iYk"
+				"bzz-raw://711c573007874e17e5af64bec870e79f74a43052d60aae61a256739b737e59c2",
+				"dweb:/ipfs/QmQPzMZ9nVP97Qu948tkt58PtBRdSjoXeujnKoiDf9RWxp"
 			]
 		}
 	},

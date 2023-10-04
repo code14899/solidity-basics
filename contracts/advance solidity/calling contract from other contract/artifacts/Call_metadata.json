@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "data",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_test",
+						"type": "address"
+					}
+				],
+				"name": "doesNotExist",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBal",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_testAdd",
+						"type": "address"
+					}
+				],
+				"name": "set1",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/advance solidity/calling contract from other contract/callingFunction-using-call.sol": "Call"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/advance solidity/calling contract from other contract/callingFunction-using-call.sol": {
+			"keccak256": "0xb2db42958985b29213355b0983839d2b88b5fb92fdb8dd5d1f9b8ec11e77f262",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://af48b05ada866353aa71d6aaef50ba04efb2e9eb7663b214d24cb6d3a47bc9ff",
+				"dweb:/ipfs/QmVXF3DbkiXwn6FkToTgaaqkMjTBSC18wAgrXTuZxxBQvc"
+			]
+		}
+	},
+	"version": 1
+}
