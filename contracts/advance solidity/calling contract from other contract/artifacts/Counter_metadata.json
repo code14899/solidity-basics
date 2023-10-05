@@ -46,9 +46,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/advance solidity/calling contract from other contract/helper-counter-contract.sol": "Counter"
+			"contracts/advance solidity/calling contract from other contract/interface.sol": "Counter"
 		},
-		"evmVersion": "berlin",
+		"evmVersion": "paris",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -60,12 +60,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/advance solidity/calling contract from other contract/helper-counter-contract.sol": {
-			"keccak256": "0x253a29e8b717a91419a1632736b4064e22a1b589d4c375c6f71e17cac523ac3f",
+		"contracts/advance solidity/calling contract from other contract/interface.sol": {
+			"keccak256": "0x81eab3efb3305cece97032e2fe9469c13801c851d797c27b2eac6b71e51f2a00",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://118264a1ce0bf9ae0d3584df4e4917f1dcf0647949d1667b194be27bf7d3deb3",
-				"dweb:/ipfs/QmZ3N7qV7ySQBseUSC3eHAtURWiYxTLTVV3Bdh7A7g2o2R"
+				"bzz-raw://26acfc7f4c982f8733bf69aae4b22dbfdb9b397dddbd2bbce77bfabbf43ed045",
+				"dweb:/ipfs/QmXSovjk7tUraohmSfVvcDZ7XWqc77qTw9r32khw3NbxYT"
 			]
 		}
 	},

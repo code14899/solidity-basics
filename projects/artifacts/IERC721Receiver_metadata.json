@@ -9,26 +9,34 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "_counterAddress",
+						"name": "operator",
 						"type": "address"
-					}
-				],
-				"name": "IncAndGet",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "count",
-				"outputs": [
+					},
+					{
+						"internalType": "address",
+						"name": "from",
+						"type": "address"
+					},
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "tokenId",
 						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "data",
+						"type": "bytes"
 					}
 				],
-				"stateMutability": "view",
+				"name": "onERC721Received",
+				"outputs": [
+					{
+						"internalType": "bytes4",
+						"name": "",
+						"type": "bytes4"
+					}
+				],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -45,7 +53,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/advance solidity/calling contract from other contract/interface.sol": "CallInterface"
+			"projects/ERC721.sol": "IERC721Receiver"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -59,12 +67,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/advance solidity/calling contract from other contract/interface.sol": {
-			"keccak256": "0x81eab3efb3305cece97032e2fe9469c13801c851d797c27b2eac6b71e51f2a00",
+		"projects/ERC721.sol": {
+			"keccak256": "0x1a9ef139f320eacdce7749ffd20bd605b7392f00e2737fb42dfb569f696820db",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://26acfc7f4c982f8733bf69aae4b22dbfdb9b397dddbd2bbce77bfabbf43ed045",
-				"dweb:/ipfs/QmXSovjk7tUraohmSfVvcDZ7XWqc77qTw9r32khw3NbxYT"
+				"bzz-raw://fc419b8e2a75567197dab99b0f8c00450c0478ef345ab35029acda4f68fa9207",
+				"dweb:/ipfs/QmbHjp9HZfqaGN9muFxFHkUNyQeE7bEaYBmNkcU5EGmcRZ"
 			]
 		}
 	},

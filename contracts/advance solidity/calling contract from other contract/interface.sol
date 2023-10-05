@@ -16,8 +16,19 @@ contract CallInterface {
     function IncAndGet(address _counterAddress) public {   // in place of external if we 
         ICounter(_counterAddress).inc();                    //  are writing public it is not working
         count = ICounter(_counterAddress).count();
-
     }
+}
 
+contract Counter {
+
+    uint public count;
+
+    function inc() external {
+        count += 1;
+    }
+    
+    function dec() external {
+        count -= 1;
+    }
 }
 
